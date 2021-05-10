@@ -1,0 +1,210 @@
+/*----------
+fonts
+........*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+/* css variables */
+@import url(partials/variables.css);
+
+@import url(./fonts.css);
+
+
+/* start navigation */
+.header_area .main-menu .container-fluid{
+  border-bottom: 2px solid currentColor;
+  color: #f2f2f2;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    color: black;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 1rem;
+}
+.header_area .main-menu .nav-item .nav-link{
+  font: normal 500 15px/2px var(--roboto);
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav a:hover{
+    color: #9400D3;
+}
+.header_area .hamburger-btn{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 60%;
+  transition: all 0.3s ease;
+}
+.header_area .navbar-light .navbar-toggler {
+  color: white;
+  border-color: whitesmoke;
+}
+/* End navigation */
+
+
+
+/* Button */
+:root {
+    --skin-color:#fb839e;
+    --bg-block-900: #000000;
+    --bg-block-100: #dddddd;
+    --bg-block-50: #eff0f4;
+    --text-block-900: #000000;
+    --text-block-700: #555555;
+    --text-block-600: #666666;
+    --text-block-300: #bbbbbb;
+    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    --primary-color: #4458dc;
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+   }
+
+  .btn-1 {  
+    padding: 9px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3% ease;
+    display: inline-block;
+    color: #9400D3;
+    
+  }
+  .btn-1:after{
+    border-radius: 30px;
+  }
+  .outer-shadow {
+    box-shadow: var(--outer-shadow);
+  }
+  .hover-in-shadow {
+    position: relative;
+    z-index: 1;
+  }
+  .hover-in-shadow:hover{
+    box-shadow: var(--outer-shadow-0);
+  }
+  .hover-in-shadow:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: all 0.3s ease;
+  }
+  .hover-in-shadow:hover:after{
+    box-shadow: var(--inner-shadow);
+  }
+
+/* END Button  */
+
+
+
+/* Banner Area */ 
+
+.site-main .site-banner .site-title h3{
+  padding-top: 15%;
+  font-weight: 500;
+  font-family: Solway;
+}
+
+
+/* End Banner Area */ 
+
+/* Arrow */
+.fa-angle-double-down{
+  color:grey;
+}
+
+/* End Arrow */
+
+/* About section */
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+.site-main .about-area .about-title .paragraph >p{
+    padding: 0.5rem 0;
+}
+p.para{
+    color: var(--text-block-600);
+}
+/* End About section */
+
+
+/* Skills Section */
+.site-main .skills-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .skills-area .skills-title{
+    padding: 0 14rem;
+}
+
+.site-main .skills-area .skills-title h1{
+    font-size: 35px;
+}
+
+.site-main > .skills-area .skills{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 2rem -0.5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .skills-area .skills:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Skills Section */
+
+
+/* Footer section */
+.footer-area .container{
+  text-align: center;
+  border-top: 1px solid currentColor;
+  color: var(--text-block-600);
+  background-color: var(--bg-block-50);
+  max-width: 100%;
+}
+.para{
+  color: var(--bg-block-900);
+  font-weight: 600;
+}
+/*---SOCIAL MEDIA---*/
+
+.social-links{
+  margin-top: 20px;
+  text-align: center;
+}
+.social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  text-align: center;
+  color:#9400D3;
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.social-links a i{
+  line-height: 40px;
+
+}
+.social-links a::after{
+  border-radius: 50%;
+}
+.social-links a:hover{
+  color:blue;
+}
+
+
+/* End Footer section */
