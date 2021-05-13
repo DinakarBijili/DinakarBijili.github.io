@@ -28,20 +28,20 @@
 
 <body>
     <!--=====================================================  Start header Area ===================================================== -->
-    <header class="header_area  ">
-        <div class="main-menu">
-            <nav class="navbar bg-white navbar-expand-lg  mb-5">
+    <header class="header_area ">
+        <div class="main-menu ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">DINAKAR BIJILI</a>
-                    <button class="fa fa-bars" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    <a class="navbar-brand" href="#home">DINAKAR BIJILI</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon" ></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="navbar-nav me-auto mb-2 mb-lg-0"></div>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" style="color:#9400D3" aria-current="page" href="#">HOME</a>
+                                <a class="nav-link active" style="color:#9400D3" aria-current="page"
+                                    href="#home">HOME</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">ABOUT</a>
@@ -53,7 +53,7 @@
                                 <a class="nav-link" href="DINAKAR RESUME.pdf" target="_blank">RESUME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="DINAKAR RESUME.pdf" target="_blank">SKILLS</a>
+                                <a class="nav-link" href="#skills">SKILLS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">CONTACT</a>
@@ -73,38 +73,40 @@
 
         <!--============================================ Start Banner Area ============================================ -->
         <section class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text " style="font-size: 60px; font-family: Solway;">I am Dinakar <spap>
-                                _</span></h1>
-                        <h4 class="title-text" style="font-family: Solway;">Web Developer </h1>
-                            <div class="site-buttons">
-                                <div class="d-flex flex-row flex-wrap">
-                                    <a href="https://www.linkedin.com/in/dinakar-bijili-9bba741b0/" target="_blank"
-                                        style="text-decoration-line: none;"
-                                        class="btn-1 outer-shadow hover-in-shadow my-2">HIRE
-                                        ME</a>
-                                    <a href="DINAKAR RESUME.pdf" target="_blank" style="text-decoration-line: none;"
-                                        class="btn-1 outer-shadow hover-in-shadow my-2 mx-2">GET
-                                        CV</a>
-                                    </button>
-                                    <div class="col-lg-6 col-md-12">
+            <div id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 site-title">
+                            <h3 class="title-text">Hey</h3>
+                            <h1 class="title-text " style="font-size: 60px; font-family: Solway;">I am Dinakar <spap>
+                                    _</span></h1>
+                            <h4 class="title-text" style="font-family: Solway;">Web Developer </h1>
+                                <div class="site-buttons">
+                                    <div class="d-flex flex-row flex-wrap">
+                                        <a href="https://www.linkedin.com/in/dinakar-bijili-9bba741b0/" target="_blank"
+                                            style="text-decoration-line: none;"
+                                            class="btn-1 outer-shadow hover-in-shadow my-2">HIRE
+                                            ME</a>
+                                        <a href="DINAKAR RESUME.pdf" target="_blank" style="text-decoration-line: none;"
+                                            class="btn-1 outer-shadow hover-in-shadow my-2 mx-2">GET
+                                            CV</a>
+                                        </button>
+                                        <div class="col-lg-6 col-md-12">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="./img/banner.jpg" alt="" class="img-fluid">
-                        <span id="arrow">
-                            <a href="#about"><i class="fas fa-angle-double-down fa-3x "
-                                    style="position: relative ;right: 80px;;"></i></a>
-                        </span>
+                        </div>
+                        <div class="col-lg-6 col-md-12 banner-image">
+                            <img src="./img/banner.jpg" alt="" class="img-fluid">
+                            <span id="arrow">
+                                <a href="#about"><i class="fas fa-angle-double-down fa-3x "
+                                        style="position: relative ;right: 80px;;"></i></a>
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div>
+                <div>
+                </div>
 
             </div>
         </section>
@@ -113,12 +115,12 @@
         <!--============================= End Banner Area ============================= -->
         <!-- ============================ About Area ==================================-->
         <div id="about">
-            <div class="about-area my-4">
+            <div class="about-area my-5 ">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-6 col-md-12 ">
                             <div class="about-image ">
-                                <img src="./img/20945347.jpg" alt="About us" class="img-fluid">
+                                <img src="./img/about.jpg" alt="About us" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 about-title">
@@ -130,10 +132,20 @@
                             <div class="paragraph py-4 w-75">
                                 <p class="para">
                                     <strong> Coding From the bottom of my Heart</strong>
-                                    I am a Self taught Programmer from Hyderabad, Telangana, India. I've not done any remote work for any agency and never collabarate with anyone yet but iam currious to collabarate and do some real World Projects to perpetually improve my Skills.As a Self taught Programmer it's been taught journey to explore the Programming as iam a b.com student it become much more challenging to learn Programming.
+                                    I am a Self taught Programmer from Hyderabad, Telangana, India. I've not done any
+                                    remote work for any agency and never collabarate with anyone yet but iam currious to
+                                    collabarate and do some real World Projects to perpetually improve my Skills.As a
+                                    Self taught Programmer it's been taught journey to explore the Programming as iam a
+                                    b.com student it become much more challenging to learn Programming.
                                 </p>
                                 <p class="para">
-                                    I started my coding journey with Python Programmer watching different Youtube Channels and through Google, StackOverFlow and W3schools it helps me lot more to explore. Firstly I felt difficult to understanding all the syntax but practice make me to improve my coding skills. I then  Started learning Web Developer and further iam doing to explore threejs and ML and must more as in Programming their are many things that you can make worthy to learn and explore new things <strong> AS this is my beginnning Lot more to come in  further....</strong>
+                                    I started my coding journey with Python Programmer watching different Youtube
+                                    Channels and through Google, StackOverFlow and W3schools it helps me lot more to
+                                    explore. Firstly I felt difficult to understanding all the syntax but practice make
+                                    me to improve my coding skills. I then Started learning Web Developer and further
+                                    iam doing to explore threejs and ML and must more as in Programming their are many
+                                    things that you can make worthy to learn and explore new things <strong> AS this is
+                                        my beginnning Lot more to come in further....</strong>
                                 </p>
                                 <a href="DINAKAR RESUME.pdf" target="_blank" style="text-decoration-line: none;"
                                     class="btn-1 outer-shadow hover-in-shadow my-2">Download CV</a>
@@ -163,7 +175,7 @@
                             <div class="skills">
                                 <div class="skills-img text-center py-4">
                                     <!-- <img src="./img/AI.jpg" class="img-fluid" alt="skills-1"> -->
-                                    <a href="https://github.com/DinakarBijili/Jarvis-Virtual-Assistant" target="_blank"> 
+                                    <a href="https://github.com/DinakarBijili/Jarvis-Virtual-Assistant" target="_blank">
                                         <img alt="Qries" src="./img/chatbot.png">
                                     </a>
                                 </div>
@@ -193,8 +205,9 @@
                                         Bird
                                     </h5>
                                     <p class="card-text text-secondary">
-                                        • A Flappy Bird is a simple jumping game without touching any objects like pipe between the Game.This Project was made using
-                                        <strong>pygame </strong> 
+                                        • A Flappy Bird is a simple jumping game without touching any objects like pipe
+                                        between the Game.This Project was made using
+                                        <strong>pygame </strong>
                                     </p>
                                 </div>
                             </div>
@@ -227,54 +240,150 @@
             </div>
         </section>
         <!-- ============================ End projects Area ==================================-->
+        <!-- ============================  Skills Area =======================================-->
+        <div id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 text-center skills-title">
+                        <h1 class="title-text">SKILLS</h1>
+                        <b> Programming Skills</b>
+
+
+                        <div class="row">
+                            <div class="skills tab-content active">
+                                <div class="row">
+                                    <!--Skill Items Starts-->
+                                    <div class="skill-item">
+                                        <p class="skills-para">Python 3 </p>
+                                        <div class="progress inner-shadow">
+                                            <div class="progress-bar" style="width: calc(70% - 14px)">
+                                                <span>70%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Skill Items Ends-->
+                                    <!--Skill Items Starts-->
+                                    <div class="skill-item">
+                                        <p class="skills-para">Html</p>
+                                        <div class="progress inner-shadow">
+                                            <div class="progress-bar" style="width: calc(50% - 14px);">
+                                                <span>50%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Skill Items Ends-->
+                                    <!--Skill Items Starts-->
+                                    <div class="skill-item">
+                                        <p class="skills-para">css</p>
+                                        <div class="progress inner-shadow">
+                                            <div class="progress-bar" style="width: calc(40% - 14px)">
+                                                <span>40%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Skill Items Ends-->
+
+
+                                    <!--Skill Items Starts-->
+                                    <div class="skill-item">
+                                        <p class="skills-para">Javascript</p>
+                                        <div class="progress inner-shadow">
+                                            <div class="progress-bar" style="width: calc(30% - 14px)">
+                                                <span>30%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <p class="skills-para">Django</p>
+                                        <div class="progress inner-shadow">
+                                            <div class="progress-bar" style="width: calc(20% - 14px)">
+                                                <span>20%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-9 banner-image">
+                        <img src="./img/skills.png" alt="" class="img-fluid">
+                        <div class="col-lg-6 col-md-12 banner-image">
+                            <img src="./img/skills2.png" alt="" class="img-fluid">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- ============================ End Skills Area ==================================-->
 
         <!-- ============================ End contact Area ==================================-->
         <div id="contact">
-        <div class="container my-5">
-        <h1 class="title-text pt-5">CONTACT ME</h1>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Enter name</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
+            <div class="container my-5">
+                <h1 class="title-text pt-5">CONTACT ME</h1>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Enter name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Tell me Something about
+                        my
+                        portfolio</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        style="resize:none;"></textarea>
+                </div>
+                <button <a href="mainto:dinakar.bijili007@gmail.com" type="button"
+                    class="btn btn-dark">Submit</button></a>
             </div>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Tell me Something about my portfolio</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="resize:none;"></textarea>
-        </div>
-        <button <a href="mainto:dinakar.bijili007@gmail.com" type="button" class="btn btn-dark">Submit</button></a>
-        </div>
-        <!-- ============================ End contact Area ==================================-->
+            <!-- ============================ End contact Area ==================================-->
 
 
 
-        <!-- ============================ FOOTER AREA ==================================-->
-        <footer id="sticky-footer" class="py-4 bg-dark"> 
-        <div class="container text-center"> 
-        <div class="row"> 
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
-        <p class="algreya" style="margin: 0; color: white; font-size: 18px;">All illustrations on this website are my own work and are subject to copyright</p> 
-        <hr style="background-color: white; opacity: 0.2;margin: 10px;"> 
-        <p class="algreya" style="margin: 0; color: white; font-size: 18px;">Copyright © 2021 Dinakar Bijili</p> <p class="algreya" style="margin: 0; color: white; font-size: 18px;">All rights reserved</p> 
-        </div> 
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
-        <p class="algreya" style="margin: 0; color: white; font-size: 18px;"><span style="border-bottom: 1px solid white;">Follow me on:</span></p> 
-        <!--social links start-->
-                <div class="social-links">
-                    <a href="https://www.instagram.com/_dinakar07_/" class=" hoven-in-shadow" ><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="https://github.com/DinakarBijili" class="hoven-in-shadow"><i
-                            class="fab fa-github-square"></i></a>
+            <!-- ============================ FOOTER AREA ==================================-->
+            <footer id="sticky-footer" class="py-4 bg-dark">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <p class="algreya" style="margin: 0; color: white; font-size: 18px;">All
+                                illustrations on
+                                this website are my own work and are subject to copyright</p>
+                            <hr style="background-color: white; opacity: 0.2;margin: 10px;">
+                            <p class="algreya" style="margin: 0; color: white; font-size: 18px;">
+                                Copyright ©
+                                2021
+                                Dinakar Bijili</p>
+                            <p class="algreya" style="margin: 0; color: white; font-size: 18px;">All
+                                rights
+                                reserved</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <p class="algreya" style="margin: 0; color: white; font-size: 18px;"><span
+                                    style="border-bottom: 1px solid white;">Follow me on:</span></p>
+                            <!--social links start-->
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/_dinakar07_/" class=" hoven-in-shadow"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="https://github.com/DinakarBijili" class="hoven-in-shadow"><i
+                                        class="fab fa-github-square"></i></a>
 
-                    <a href="https://www.linkedin.com/in/dinakar-bijili-9bba741b0/"
-                        class="hoven-in-shadow"><i class="fab fa-linkedin"></i></a>
-                </div><br>
-                <!--social links ends-->
-         </footer>    
+                                <a href="https://www.linkedin.com/in/dinakar-bijili-9bba741b0/"
+                                    class="hoven-in-shadow"><i class="fab fa-linkedin"></i></a>
+                            </div><br>
+                            <!--social links ends-->
+            </footer>
 
-        <!-- ============================ END FOOTER AREA ==================================-->
+            <!-- ============================ END FOOTER AREA ==================================-->
 
     </main>
     <!--================================= End Main Area ================================= -->
